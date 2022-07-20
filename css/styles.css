@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    max-width: 800px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 40px;
+    background-color: rgb(207, 228, 175);
+    font-family: serif;
+    text-align: center;
+
+}
+
+h1:hover{
+    color: darkorange;
+    cursor: pointer;
+}
+
+nav{
+    background-color: rgb(192, 238, 188);
+    line-height: 2em;
+}
+p:hover{
+    color: rgb(137, 156, 110);
+    
+}
+
+p{
+    background-color: beige;
+    line-height: 2em;
+    font-family: serif;
+}
+
+ul{
+    background-color: rgba(85, 202, 93, 0.164);
+}
